@@ -1,0 +1,132 @@
+#title {
+    background-color: #FF4C69;
+    color: white;
+
+
+}
+
+#title h1 {
+    font-family: montserrat-black;
+    font-size: 3rem;
+    margin-top: 50px;
+
+}
+
+
+
+.navbar-nav a {
+    color: white;
+
+}
+
+.nav-lin {
+    color: white;
+}
+
+@media (max-width:1000px) {
+    .hero {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .img {
+        transform: rotate(35deg);
+        margin-bottom: 9%;
+
+    }
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+
+.container-sm {
+    margin: 50px 10px;
+}
+
+#features {
+    padding: 3% 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #FF4C69;
+    transition: color 2.2s;
+}
+
+.features-box {
+    padding: 3% 15%;
+    text-align: center;
+}
+
+h3 {
+    font-family: Montserrat-bold;
+
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #FF4C69;
+
+    margin: 3% 0%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#testimonials h2 {
+    color: white;
+    font-family: montserrat-bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials em {
+    color: white;
+    padding-left: 20px;
+
+}
+
+#testimonials img {
+    width: 90px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    margin: 6% 45%;
+}
+
+#press {
+    padding: 7%;
+    justify-content: space-around;
+    display: flex;
+}
+
+#press img {
+    /* width: 200px; */
+    height: 50px;
+    margin: 5% 0%;
+}
+
+.ctac {
+    text-align: center;
+    padding: 15% 15%;
+    color: white;
+    background-color: #FF4C69;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 0%30%;
+}
